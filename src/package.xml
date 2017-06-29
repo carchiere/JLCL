@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadChanges628</fullName>
+    <description>Lead Changes for initial data load</description>
+    <types>
+        <members>Contact.Lead_Import_Id__c</members>
+        <members>Contact.Number_of_Classes__c</members>
+        <members>Contact.Number_of_Students__c</members>
+        <members>Contact.Packages_Downloaded__c</members>
+        <members>Contact.Receive_Newsletter__c</members>
+        <members>Contact.Role__c</members>
+        <members>Lead.Contact_Role__c</members>
+        <members>Lead.Lead_Import_Id__c</members>
+        <members>Lead.Number_of_Classes__c</members>
+        <members>Lead.Number_of_Students__c</members>
+        <members>Lead.Package_Downloaded__c</members>
+        <members>Lead.Personal_Email__c</members>
+        <members>Lead.Receive_Newsletter__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>JLCL_Programs</members>
+        <name>GlobalValueSet</name>
+    </types>
+    <types>
+        <members>Lead-Lead Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>ContractManager</members>
+        <members>Executive Management</members>
+        <members>Fundraising and Development</members>
+        <members>Guest License User</members>
+        <members>JLCL System Admin</members>
+        <members>MarketingProfile</members>
+        <members>Office Staff</members>
+        <members>Program Staff</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>Volunteer</members>
+        <name>Profile</name>
+    </types>
+    <version>39.0</version>
+</Package>

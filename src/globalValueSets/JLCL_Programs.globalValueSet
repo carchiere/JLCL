@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pre K and K</fullName>
+        <default>false</default>
+        <label>Pre K and K</label>
+    </customValue>
+    <customValue>
+        <fullName>First Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>First Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Second Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Second Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Third Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Third Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Fourth Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Fourth Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Fifth Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Fifth Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Sixth Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Sixth Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Seventh Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Seventh Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>Eight Grade JLCL Pilot</fullName>
+        <default>false</default>
+        <label>Eight Grade JLCL Pilot</label>
+    </customValue>
+    <customValue>
+        <fullName>High School JLCL Pilot</fullName>
+        <default>false</default>
+        <label>High School JLCL Pilot</label>
+    </customValue>
+    <masterLabel>JLCL Programs</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
