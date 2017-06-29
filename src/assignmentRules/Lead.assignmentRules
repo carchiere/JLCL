@@ -4,7 +4,7 @@
         <fullName>Master Lead Assignment</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>betsy@jesselewischooselove.org</assignedTo>
+            <assignedTo>bcarlson@jesselewischooselove.org</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.LeadSource</field>
