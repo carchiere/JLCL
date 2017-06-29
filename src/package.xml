@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>LeadChanges628</fullName>
     <description>Lead Changes for initial data load</description>
+    <types>
+        <members>Lead.Master Lead Assignment</members>
+        <name>AssignmentRule</name>
+    </types>
     <types>
         <members>Contact.Lead_Import_Id__c</members>
         <members>Contact.Number_of_Classes__c</members>
