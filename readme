@@ -7,3 +7,4 @@ Salesforce repository supporting changes made to support the Jesse Lewis Choose 
 *Initial repository created 6/29/17*
 ** Changes **
 - 6/29/17 initial changes to lead and contact object for first data load.
+- 9/13/17 developed changes for Product Interest
