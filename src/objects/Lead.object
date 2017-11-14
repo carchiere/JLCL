@@ -1,78 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Contact_Role__c</fullName>
+        <fullName>Contact_Role_Other__c</fullName>
+        <description>Free text field to be used to enter the value of a role that is not in the Contact Role picklist</description>
         <externalId>false</externalId>
-        <label>Contact Role</label>
-        <length>50</length>
+        <inlineHelpText>Only to be used when the Contact Role value is outside of the Contact Role picklist.</inlineHelpText>
+        <label>Contact Role Other</label>
+        <length>40</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Lead_Import_Id__c</fullName>
-        <description>Id to use when importing leads to track back to source</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Id used for tracking a lead back to the source.</inlineHelpText>
-        <label>Lead Import Id</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Number_of_Classes__c</fullName>
-        <externalId>false</externalId>
-        <label>Number of Classes</label>
-        <precision>4</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Number_of_Students__c</fullName>
-        <externalId>false</externalId>
-        <label>Number of Students</label>
-        <precision>5</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Package_Downloaded__c</fullName>
-        <externalId>false</externalId>
-        <label>Package Downloaded</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>JLCL_Programs</valueSetName>
-        </valueSet>
-        <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Personal_Email__c</fullName>
-        <description>Custom field to hold a leads personal email</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Custom field to hold a leads personal email</inlineHelpText>
-        <label>Personal Email</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Receive_Newsletter__c</fullName>
+        <fullName>PreK_and_K_Teacher__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Receive Newsletter</label>
+        <label>PreK and K Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X10th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>10th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X11th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>11th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X12th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>12th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>1st Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X2nd_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>2nd Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X3rd_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>3rd Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X4th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>4th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X5th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>5th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X6th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>6th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X7th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>7th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X8th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>8th Grade Teacher</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X9th_Grade_Teacher__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>9th Grade Teacher</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
     </fields>
