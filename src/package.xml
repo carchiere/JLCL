@@ -1,86 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Full Package of All Changes</description>
     <types>
-        <members>ProgramInterestBatchDataLoad</members>
-        <members>TestDataFactory</members>
+        <members>ScheduledJLCLProgramImportBatch</members>
+        <members>TestScheduledJLCLProgramImportBatch</members>
         <members>testProgramInterestBatchDataLoad</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Lead.Master Lead Assignment</members>
-        <name>AssignmentRule</name>
-    </types>
-    <types>
-        <members>Contact.Lead_Import_Id__c</members>
-        <members>Contact.Number_of_Classes__c</members>
-        <members>Contact.Number_of_Students__c</members>
-        <members>Contact.Packages_Downloaded__c</members>
-        <members>Contact.Receive_Newsletter__c</members>
-        <members>Contact.Role__c</members>
-        <members>Lead.Contact_Role__c</members>
-        <members>Lead.Lead_Import_Id__c</members>
-        <members>Lead.Number_of_Classes__c</members>
-        <members>Lead.Number_of_Students__c</members>
-        <members>Lead.Package_Downloaded__c</members>
-        <members>Lead.Personal_Email__c</members>
-        <members>Lead.Receive_Newsletter__c</members>
-        <members>JLCL_Program_Data_Import__c.Batch_Number__c</members>
-        <members>JLCL_Program_Data_Import__c.Contact_Email__c</members>
-        <members>JLCL_Program_Data_Import__c.Download_Date__c</members>
-        <members>JLCL_Program_Data_Import__c.Import_Description__c</members>
-        <members>JLCL_Program_Data_Import__c.Import_Status__c</members>
+        <members>Contact.Child_s_School_s_CLEP__c</members>
+        <members>Contact.Contact_Counter__c</members>
+        <members>Contact.How_did_you_hear_about_us__c</members>
+        <members>Contact.How_did_you_hear_other__c</members>
         <members>JLCL_Program_Data_Import__c.Override__c</members>
-        <members>JLCL_Program_Data_Import__c.Program_Name__c</members>
-        <members>Product_Interest__c.Contact__c</members>
-        <members>Product_Interest__c.Download_Date__c</members>
-        <members>Product_Interest__c.MergeId__c</members>
-        <members>Product_Interest__c.Product_Name__c</members>
-        <members>Product_Interest__c.Product__c</members>
+        <members>Lead.Child_s_School_s_CLEP__c</members>
+        <members>Lead.How_did_you_hear_about_us__c</members>
+        <members>Lead.How_did_you_hear_other__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>JLCL_Program_Data_Import__c</members>
-        <members>Product_Interest__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>JLCL_Programs</members>
-        <name>GlobalValueSet</name>
-    </types>
-    <types>
-        <members>Lead-Lead Layout</members>
-        <members>JLCL_Program_Data_Import__c-JLCL Program Data Import Layout</members>
-        <members>Product_Interest__c-Product Interest Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>JLCL_Program_Data_Import__c.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <members>ContractManager</members>
-        <members>Executive Management</members>
-        <members>Fundraising and Development</members>
-        <members>Guest License User</members>
-        <members>JLCL System Admin</members>
-        <members>MarketingProfile</members>
-        <members>Office Staff</members>
-        <members>Program Staff</members>
-        <members>ReadOnly</members>
-        <members>SolutionManager</members>
-        <members>Standard</members>
-        <members>Volunteer</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>ProgramInterestUpdateMergeId-1</members>
+        <members>JLCLImportDataUpdate-3</members>
+        <members>LeadCreation-1</members>
         <name>Flow</name>
     </types>
     <types>
-        <members>JLCL_Program_Data_Import__c</members>
-        <name>CustomTab</name>
+        <members>*</members>
+        <name>LeadConvertSettings</name>
+    </types>
+    <types>
+        <members>JLCL Marketing User</members>
+        <members>JLCL System Admin</members>
+        <name>Profile</name>
     </types>
     <version>39.0</version>
 </Package>

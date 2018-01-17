@@ -24,16 +24,16 @@
             <outputField>X2nd_Grade_Teacher__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>X3rd_Grade_Teacher__c</inputField>
-            <outputField>X3rd_Grade_Teacher__c</outputField>
-        </mappingFields>
-        <mappingFields>
             <inputField>X4th_Grade_Teacher__c</inputField>
             <outputField>X4th_Grade_Teacher__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>X5th_Grade_Teacher__c</inputField>
             <outputField>X5th_Grade_Teacher__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>X3rd_Grade_Teacher__c</inputField>
+            <outputField>X3rd_Grade_Teacher__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>X6th_Grade_Teacher__c</inputField>
@@ -52,6 +52,10 @@
             <outputField>X9th_Grade_Teacher__c</outputField>
         </mappingFields>
         <mappingFields>
+            <inputField>Child_s_School_s_CLEP__c</inputField>
+            <outputField>Child_s_School_s_CLEP__c</outputField>
+        </mappingFields>
+        <mappingFields>
             <inputField>Contact_Role__c</inputField>
             <outputField>Role__c</outputField>
         </mappingFields>
@@ -60,8 +64,12 @@
             <outputField>Role_Other__c</outputField>
         </mappingFields>
         <mappingFields>
-            <inputField>PreK_and_K_Teacher__c</inputField>
-            <outputField>PreK_and_K_Teacher__c</outputField>
+            <inputField>How_did_you_hear_about_us__c</inputField>
+            <outputField>How_did_you_hear_about_us__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>How_did_you_hear_other__c</inputField>
+            <outputField>How_did_you_hear_other__c</outputField>
         </mappingFields>
         <mappingFields>
             <inputField>Lead_Import_Id__c</inputField>
@@ -90,6 +98,10 @@
         <mappingFields>
             <inputField>npe01__Preferred_Phone__c</inputField>
             <outputField>npe01__PreferredPhone__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>PreK_and_K_Teacher__c</inputField>
+            <outputField>PreK_and_K_Teacher__c</outputField>
         </mappingFields>
         <outputObject>Contact</outputObject>
     </objectMapping>
